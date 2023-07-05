@@ -34,12 +34,8 @@ class _WebViewAppState extends State<WebViewApp> {
           return true;
         }
       },
-      child: Scaffold(
-        appBar: AppBar(toolbarHeight: 15.0),
-        
-        body: WebViewStack(
-          controller: controller,
-        ),
+      child: WebViewStack(
+        controller: controller,
       ),
     );
   }

@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
         android:label="anas_community"
-        android:name="ANAS Academy Community" 
+        android:name="${ANAS Academy Community}" 
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

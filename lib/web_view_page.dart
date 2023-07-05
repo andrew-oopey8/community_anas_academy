@@ -34,8 +34,13 @@ class _WebViewAppState extends State<WebViewApp> {
           return true;
         }
       },
-      child: WebViewStack(
-        controller: controller,
+      child: Container(
+        height: MediaQuery.of(context).size.height,
+        width: MediaQuery.of(context).size.width,
+        padding: const EdgeInsets.only(top: 8),
+        child: WebViewStack(
+          controller: controller,
+        ),
       ),
     );
   }
